@@ -2,7 +2,7 @@ def send(sock, text):
     send_bytes(sock, bytes(text, "utf-8"))
    
 def send_bytes(sock, bytes):
-    sock.send(bytes, "utf-8"))
+    sock.send(bytes, "utf-8")
 
 def recv(sock, buffer):
     recieved = sock.recv(buffer)
